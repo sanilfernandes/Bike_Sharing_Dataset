@@ -6,6 +6,7 @@ Data Set
 Bike-sharing rental process is highly correlated with environmental and seasonal settings. For instance, weather conditions, precipitation, day of the week, season, hour of the day, etc. can affect rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington, D.C., USA which is publicly available at http://capitalbikeshare.com/system-data. We aggregated the data on an hourly and daily basis and then extracted and added the corresponding weather and seasonal information. Weather information is extracted from http://www.freemeteo.com. 
 
 Dataset characteristics
+
 	- instant: record index
 	- dteday : date
 	- season : season (1:springer, 2:summer, 3:fall, 4:winter)
