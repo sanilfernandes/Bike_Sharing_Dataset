@@ -3,14 +3,9 @@ Predicting Bike Sharing Demand
 
 Data Set
 
-Bike-sharing rental process is highly correlated with environmental and seasonal settings. For instance, weather conditions,
-precipitation, day of the week, season, hour of the day, etc. can affect rental behaviors. The core data set is related to  
-the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington, D.C., USA which is 
-publicly available at http://capitalbikeshare.com/system-data. We aggregated the data on an hourly and daily basis and then 
-extracted and added the corresponding weather and seasonal information. Weather information is extracted from http://www.freemeteo.com. 
+Bike-sharing rental process is highly correlated with environmental and seasonal settings. For instance, weather conditions, precipitation, day of the week, season, hour of the day, etc. can affect rental behaviors. The core data set is related to the two-year historical log corresponding to years 2011 and 2012 from Capital Bikeshare system, Washington, D.C., USA which is publicly available at http://capitalbikeshare.com/system-data. We aggregated the data on an hourly and daily basis and then extracted and added the corresponding weather and seasonal information. Weather information is extracted from http://www.freemeteo.com. 
 
 Dataset characteristics
-	
 	- instant: record index
 	- dteday : date
 	- season : season (1:springer, 2:summer, 3:fall, 4:winter)
@@ -34,11 +29,8 @@ Dataset characteristics
 	- cnt: count of total rental bikes including both casual and registered
 	
 License
-
 Use of this dataset in publications must be cited to the following publication:
-
 [1] Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
-
 @article{
 	year={2013},
 	issn={2192-6352},
@@ -51,7 +43,5 @@ Use of this dataset in publications must be cited to the following publication:
 	author={Fanaee-T, Hadi and Gama, Joao},
 	pages={1-15}
 }
-
-Contact
-	
+Contact	
 For further information about this dataset please contact Hadi Fanaee-T (hadi.fanaee@fe.up.pt)
